@@ -1,0 +1,104 @@
+body{
+    background-color: rgba(192, 241, 143, 0.767);
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to left, rgba(192, 241, 143, 0.767),rgba(177, 230, 125, 0.767));
+}
+
+.brics{
+    position: absolute;
+    left: 0.5px;
+    top: 0.3px;
+    width: 301.9px;
+    height: 75.1px;
+}
+.paises{
+    width: 800px;
+    height: 550px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-bottom: 5px;
+}
+header{
+    background-color: rgba(167, 218, 116, 0.767);
+    margin: 0;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+nav > a{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    font-size: 1.8em;
+}
+section > a{
+    text-decoration: none;
+    color: black;
+}
+section > a:hover{
+    color:rgb(22, 235, 164);
+}
+section > a::after{
+    content: " [LINK]";
+}
+section > img{
+    width: 850px;
+}
+#logo{
+    font-size: 4em;
+    margin-left:1%;
+    margin-right: 35%;
+    padding: 5px;
+    font-family: Impact, 'Arial Black', sans-serif;
+}
+main{
+    width: 900px;
+    margin: auto;
+    margin-top: 130px;
+}
+main > section{
+    background-color: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius:20px 0;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.719);
+}
+
+@media all and (max-width: 1400px){
+    #logo{
+        font-size: 3.9em;
+        margin-right: 10%;
+    }
+}
+p{
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+nav{
+    border-bottom: 1px solid black;
+    padding: 12.5px 0;
+}
+nav > a{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+nav > a:hover{
+    border-bottom: 2px solid green;
+    
+}
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+footer > p{
+    margin: 0;
+    text-align: center;
+}
