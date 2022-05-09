@@ -54,7 +54,8 @@ section > img{
     font-family: Impact, 'Arial Black', sans-serif;
 }
 main{
-    width: 900px;
+    max-width: 900px;
+    min-width: 500px;
     margin: auto;
     margin-top: 130px;
 }
