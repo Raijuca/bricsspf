@@ -67,7 +67,15 @@ main > section{
     text-align: center;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.719);
 }
-
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 2s;
+}
+section img:hover{
+    transform: translateX(500px);
+}
 @media all and (max-width: 1400px){
     #logo{
         font-size: 3.9em;
