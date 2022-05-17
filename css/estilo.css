@@ -67,6 +67,9 @@ main > section{
     text-align: center;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.719);
 }
+section div{
+    position: relative;
+}
 section img{
     position: absolute;
     top: 0;
