@@ -70,15 +70,7 @@ main > section{
 section div{
     position: relative;
 }
-section img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 2s;
-}
-section img:hover{
-    transform: translateX(500px);
-}
+
 @media all and (max-width: 1400px){
     #logo{
         font-size: 3.9em;
